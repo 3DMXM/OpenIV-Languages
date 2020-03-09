@@ -334,6 +334,7 @@
 		<ttRageExe Caption='为确保$AppName$正常工作，此目录内应存在以下文件：$RageEncryptionStorage$'/>
 		<!-- General -->
 		<tabMain Caption='总体'/>
+		<cbShowSelectGameDialog Caption='启动时显示"选择游戏和平台"对话框'/>
 		<lbDefaultGame Caption='选择默认游戏：'/>
 		<lbWorkMode Caption='默认工作模式：'/>
 		<WorkMode>
@@ -351,6 +352,7 @@
 		<cbCloseArchivesAtStartGame Caption="在开始游戏时关闭所有已经打开的 rpf 文件"/>
 		<cbClearSearchFilterAfterOpeningArchive Caption='在打开新的 rpf 文件时清空搜索词'/>
 		<cbUseAlternativeWayOfAddingFolders Caption='可以直接拖入文件夹。但不会创建该文件夹，只有文件夹中文件被拖入。'/>
+		<cbAlwaysOnExtendedContextMenu Caption="始终在主窗口中打开项目的扩展上下文菜单"/>
 		<tbFileAssociation Caption="更改文件关联"/>
 		<cbDisplayExitConfirmationDialog Caption="在退出时显示确认对话"/>
 		<cbStartWithLocationFromLastSession Caption="打开 $AppName$ 时恢复上次进行的会话"/>
@@ -388,6 +390,7 @@
 			</Items>
 		</cbMultichannelAudioPlayback>
 		<lbMultichannelNote Caption="注意：确保您的系统能够播放环绕声，否则您将听不到大部分音频内容。"/>
+		<cbPackageInstallerShowConfirmInstallDialog Caption="在 Package Installer 中显示安装确认对话框"/>
 		<!-- openFormats -->
 		<tabFormats Caption="openFormats"/>
 		<lbDefTextureFormat Caption="默认贴图文件格式"/>
